@@ -1,6 +1,9 @@
-function J = drawContoursColor(Iin,c)
-%function J = drawContoursColor(I,c)
+function J = drawContoursColor(Iin, c)
+%function J = drawContoursColor(Iin, c)
 %	I is the image, c is the contour to draw on I with value between 0 and 1.
+
+% AUTORIGHTS
+
 	if(ndims(Iin) == 2)
 		Iin = rapmat(Iin,[1 1 3]);
 	end

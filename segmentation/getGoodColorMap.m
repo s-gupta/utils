@@ -1,4 +1,8 @@
 function cmap = getGoodColorMap(n)
+% function cmap = getGoodColorMap(n)
+
+% AUTORIGHTS
+
 	cc = colorcube(ceil(n*8/7)+5);
 	cc = cc(1:n,:);
 

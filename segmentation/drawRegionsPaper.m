@@ -5,7 +5,9 @@ function I = drawRegionsPaper(I, r, totalColors)
 % must be a int matrix and I can be anything.
 % 
 % Returns a double I
-    
+
+% AUTORIGHTS
+
   if(~exist('totalColors','var'))
     totalColors = 40;
   end

@@ -1,6 +1,9 @@
 function box = regionToBox(label, masks, sp2reg, typ)
 % function box = regionToBox(label, masks, sp2reg, typ)
 % box is Nx4 matrix with [xmin ymin xmax ymax];
+
+% AUTORIGHTS
+
   
   switch typ,
     case 'label',

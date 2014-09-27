@@ -1,6 +1,9 @@
 function [iu inter instArea regArea] = computeOverlap(sp, sp2reg, instMasks, typ)
 % function [iu inter instArea regArea] = computeOverlap(sp, sp2reg, instMasks, typ)
 %   Compute the overlap of all ground truth regions with the regions
+
+% AUTORIGHTS
+
   nInst = size(instMasks, 3);
   nSP = size(sp2reg, 1); nR = size(sp2reg, 2);
 

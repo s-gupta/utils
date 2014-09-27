@@ -1,4 +1,8 @@
 function out = drawRegionsText(reg, name, imSz, textSz)
+% function out = drawRegionsText(reg, name, imSz, textSz)
+
+% AUTORIGHTS
+
   regI = reg;
 	
 	mask = separateInstancesGT(regI);
