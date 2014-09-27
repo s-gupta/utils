@@ -2,6 +2,14 @@ function [out ids] = generateSweep(init_pt, varargin)
 % function [out ids] = generateSweep(init_pt, varargin)
 
 % AUTORIGHTS
+% ---------------------------------------------------------
+% Copyright (c) 2014, Saurabh Gupta
+% 
+% This file is part of the Utils code and is available 
+% under the terms of the Simplified BSD License provided in 
+% LICENSE. Please retain this notice and LICENSE if you use 
+% this file (or any portion of it) in your project.
+% ---------------------------------------------------------
 
   assert(isequal(length(varargin), 2*length(init_pt)));
   cnt = 0;
